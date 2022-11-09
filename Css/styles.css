@@ -1,0 +1,346 @@
+@font-face {
+    font-family: "Garet";
+    src: url(../fonts/Garet-Book.ttf);
+}
+*
+
+{
+    margin: 0;
+    
+    padding: 0;
+    
+
+}
+/*header*/
+.container
+{
+    width: 80;
+    height: 20vh;
+    background-color: black;
+    
+    
+    
+
+} 
+.navbar{
+    width: 60%;
+    height: auto;
+    padding: 35px; ;
+    display:flex ;
+    align-items:center ;
+    justify-content: space-between;      
+} 
+.logo {
+    height: 120px;
+    cursor: pointer;
+    align-items: center;
+}
+.navbar ul li {
+    list-style: none;
+    display:inline-block;
+    margin:0 20px;
+    position: relative;        
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: rgb(215, 211, 211);
+    font-family: "Garet";
+    font-size: 1rem;
+    line-height: 0%;    
+}
+    
+.navbar ul li::before {
+    content:"";
+    height: 2.3px;
+    width: 115%;
+    background-color: antiquewhite;
+    position:absolute;
+    left: 0;
+    bottom: -12px ;
+    transition: 0.2s ease-out;
+}
+.navbar ul li:hover::before {
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+/*main*/
+
+.galeria{
+    display: grid; 
+
+grid-template-rows: 1fr 1fr;
+grid-template-columns: 1fr 1fr 1fr;
+background-color:rgb(255, 255, 255);
+gap: 0px;
+height: 50%;
+align-items: center;
+justify-items: center;   
+}
+.foto1{
+    width: 400px;
+    height: 400px;   
+}
+.Galeria2{
+    display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(4, 1fr);
+grid-column-gap: 12px;
+grid-row-gap: 12px;
+align-items: center;   
+justify-items: center;
+}
+.Galeria2 img{
+    width: 400px;
+    height: 400px    
+}
+.Galeria2{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: "Garet";
+    font-size: 1rem;
+    line-height: 30%;   
+}
+.GALERIA-oficial{
+    text-align: center;
+    font-family:"Garet" ;
+    font-size: 20px;
+}
+.container2 {
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    margin-top: 40px;
+}
+.container2 .card {
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.518);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+.img-card{
+    width: 200px;
+    height: 200px
+
+}
+.faq{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: "Garet";
+    font-size: 2rem;
+    line-height: 30%;
+    text-align: center;
+}
+.card{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: "Garet";
+    font-size: 1rem;
+    line-height: 100%;
+    text-align: center;
+
+}
+.form {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.form h2 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0;
+    font-size: 20px;
+    margin-bottom: 40px;
+    
+}
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+    font-family: "Garet";
+    background-color: antiquewhite;
+}
+
+textarea {
+    height: 200px;
+    width: 100%;
+    resize: none;
+    font-family: "Garet";
+    background-color: antiquewhite;
+}
+
+.submit {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    font-family: "Garet";
+}
+
+.submit:hover {
+    cursor: pointer;
+}
+
+/*contacto*/
+.insta-logo{
+    color: rgb(221, 61, 165);
+    height: 80px;
+    cursor: pointer;
+    align-items: center;
+}
+.whats-logo{
+    color: greenyellow;
+    height: 80px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.logos-medio{
+    text-align: center;
+    background-color: black;
+    border-bottom: 7px;
+
+}
+
+.main-contacto,h2{
+    text-align: center;
+    font-family: "Garet";
+    font-size:normal; 
+}
+.main-contacto,p{
+    text-align: center;
+    font-family: "Garet";
+    font-size:normal;
+    
+}  
+/* ferias*/
+.titulo-feria{
+    text-align: center;
+    justify-content: center;
+    font-family: "Garet";
+    font-size: normal;
+}
+.equip-container1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;   
+    font-style: oblique;
+}
+.equip-container2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    font-style: oblique;
+
+
+}
+.equip-container1 img{
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    justify-items: center;
+}
+.equip-container2 img{
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    justify-items: center;
+}
+
+
+    /*footer*/
+    
+    .pie-pagina
+    {
+        background-color: rgb(0, 0, 0);
+        
+        
+    }
+    .info-pie-contacto{
+        align-items: center;
+        text-align: center;
+        background-color: black;
+        color: rgb(255, 255, 255);
+    }
+    .finalpagina-contacto{
+        color: aliceblue;
+        background-color: black;
+        align-items: center;
+    }               
+    .bi-bi-logo{
+        position:relative; 
+	z-index: 100;
+	display: block;
+	height:50px;
+	width: 100px;;
+	margin-left: 0%;                
+    color: rgb(215, 211, 211);
+    overflow: hidden;
+    align-items: center    
+    }
+    .finalpagina{
+        color: rgb(215, 211, 211);
+        font-style:oblique ;
+        text-align: center;
+    }
+    .info-pie h2 {
+        text-align: left;
+        margin-left: 20%;
+    
+    }
+    
+.numero-telefonico{
+    font-style:oblique;
+    color: rgb(215, 211, 211);
+    text-align: left;
+        margin-left: 20%;
+        font-style:oblique;
+}
+.email-pie{
+    color: rgb(215, 211, 211);
+    text-align: left;
+        margin-left: 20%;
+        font-style:oblique;
+}
+
+
+    .info-pie h3 {
+        text-align:left;
+        font-style:oblique;
+        color: rgb(215, 211, 211);
+        margin-left: 1%;
+        font-size: 1.0rem;
+    }
+.info-pie{
+    font-style:oblique;
+    font-size: 1.0rem;
+    color: rgb(215, 211, 211);
+}
+
+.footer{
+    text-align: center;
+}
