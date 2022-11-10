@@ -165,7 +165,7 @@ justify-items: center;
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-family: "Garet";
-    font-size: 2rem;
+    /* font-size: 2rem; */
     line-height: 30%;
     text-align: center;
 }
@@ -391,3 +391,7 @@ textarea {
     background: hsl(306, 95%, 74%);
     color: white;
   }
+#iconoFooter
+{
+    font-size: 60px;
+}
