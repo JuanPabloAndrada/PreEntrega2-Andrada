@@ -8,6 +8,13 @@
     ;
     box-sizing: border-box;
 }
+*{
+    margin: 0;
+    padding: 0
+    ;
+    box-sizing: border-box;
+}
+
 /*header*/
 /* .container
 {
@@ -77,6 +84,7 @@
 
 /*main*/
 
+
 .galeria{
     display: grid; 
 
@@ -95,7 +103,7 @@ justify-items: center;
 
 
 
-.Galeria2{
+/* .Galeria2{
     display: grid;
 grid-template-columns: repeat(3, 1fr);
 grid-template-rows: repeat(4, 1fr);
@@ -119,7 +127,15 @@ justify-items: center;
     text-align: center;
     font-family:"Garet" ;
     font-size: 20px;
-}
+} */
+/*Galeria*/
+
+
+
+
+
+
+/*Galeria*/
 .container2 {
     width: 100%;
     max-width: 1200px;
@@ -208,19 +224,7 @@ textarea {
     cursor: pointer;
 }
 
-/*contacto*/
-.insta-logo{
-    color: rgb(221, 61, 165);
-    height: 80px;
-    cursor: pointer;
-    align-items: center;
-}
-.whats-logo{
-    color: greenyellow;
-    height: 80px;
-    cursor: pointer;
-    align-items: center;
-}
+
 
 .logos-medio{
     text-align: center;
@@ -366,23 +370,24 @@ textarea {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+    
   }
   
   /* Add a hover effect if you want */
   .fa:hover {
-    opacity: 0.7;
+    opacity: 1.0;
   }
   
   /* Set a specific color for each brand */
   
-  /* Facebook */
-  .fa-facebook {
-    background: #3B5998;
+  /* Whatsapp */
+  .fa-whatsapp {
+    background: hsl(106, 83%, 68%);
     color: white;
   }
   
-  /* Twitter */
-  .fa-twitter {
-    background: #55ACEE;
+  /* Instagram */
+  .fa-instagram {
+    background: hsl(306, 95%, 74%);
     color: white;
   }
