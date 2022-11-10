@@ -2,17 +2,14 @@
     font-family: "Garet";
     src: url(../fonts/Garet-Book.ttf);
 }
-*
-
-{
+*{
     margin: 0;
-    
-    padding: 0;
-    
-
+    padding: 0
+    ;
+    box-sizing: border-box;
 }
 /*header*/
-.container
+/* .container
 {
     width: 80;
     height: 20vh;
@@ -21,8 +18,9 @@
     
     
 
-} 
-.navbar{
+}  */
+
+/* .navbar{
     width: 60%;
     height: auto;
     padding: 35px; ;
@@ -63,7 +61,19 @@
 .navbar ul li:hover::before {
     width: 100%;
     background-color: antiquewhite;
+} */
+.logo {
+    height: 120px;
+    cursor: pointer;
+    align-items: center;
 }
+.navbar{
+    background-color: black;
+    font-family: "Garet";
+}
+    
+
+
 
 /*main*/
 
@@ -74,7 +84,7 @@ grid-template-rows: 1fr 1fr;
 grid-template-columns: 1fr 1fr 1fr;
 background-color:rgb(255, 255, 255);
 gap: 0px;
-height: 50%;
+height: auto;
 align-items: center;
 justify-items: center;   
 }
@@ -82,6 +92,9 @@ justify-items: center;
     width: 400px;
     height: 400px;   
 }
+
+
+
 .Galeria2{
     display: grid;
 grid-template-columns: repeat(3, 1fr);
@@ -274,7 +287,7 @@ textarea {
 
     /*footer*/
     
-    .pie-pagina
+    /* .pie-pagina
     {
         background-color: rgb(0, 0, 0);
         
@@ -343,4 +356,33 @@ textarea {
 
 .footer{
     text-align: center;
-}
+} */
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 65px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
