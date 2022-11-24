@@ -66,10 +66,6 @@ textarea {
   font-size: normal;
 }
 
-footer {
-  /* Whatsapp */
-  /* Instagram */
-}
 footer .fa {
   padding: 20px;
   font-size: 30px;
@@ -91,4 +87,42 @@ footer .fa-instagram {
 }
 footer #iconoFooter {
   font-size: 60px;
+}
+
+.img-container {
+  text-align: center;
+  font-family: "Garet";
+}
+
+.card-container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  margin-top: 20px;
+}
+.card-container .card {
+  width: 330px;
+  height: 430px;
+  border-radius: 8px;
+  box-shadow: 0 2px 2px rgba(255, 231, 245, 0.838);
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  transition: all 0.35s;
+  background-color: #111;
+}
+.card-container .card img {
+  height: 250px;
+  width: auto;
+}
+.card-container .card p {
+  padding: 0 1rem;
+  font-family: "Garet";
+  font-size: 16px;
+  font-weight: 300;
+  text-align: justify;
+  color: aliceblue;
 }/*# sourceMappingURL=main.css.map */
