@@ -17,7 +17,7 @@ header .navbar {
   margin-top: 20px;
 }
 .form .form .h2 {
-  color: rgb(0, 0, 0);
+  color: #020100;
   text-align: center;
   margin: 0;
   font-size: 20px;
@@ -125,4 +125,5 @@ footer #iconoFooter {
   font-weight: 300;
   text-align: justify;
   color: aliceblue;
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=main.css.map */

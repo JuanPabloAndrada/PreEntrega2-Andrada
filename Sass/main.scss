@@ -1,3 +1,7 @@
+
+@import 'vars';
+
+
 header{
 .logo {
     height: 120px;
@@ -5,7 +9,7 @@ header{
     align-items: center;
 }
 .navbar{
-    background-color: black;
+    background-color:$colorBg;
     font-family: "Garet";
 }
 }
@@ -17,7 +21,7 @@ header{
     box-sizing: border-box;
     margin-top: 20px;
     .form .h2 {
-    color: rgb(0, 0, 0);
+    color: $colorBg;
     text-align: center;
     margin: 0;
     font-size: 20px;
@@ -33,17 +37,17 @@ input {
     font-size: 17px;
     border: none;
     font-family: "Garet";
-    background-color: antiquewhite;}
+    background-color: $colortxt;}
 textarea {
     height: 200px;
     width: 100%;
     resize: none;
     font-family: "Garet";
-    background-color: antiquewhite;
+    background-color: $colortxt;
 }
 .submit {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    background-color: $colorBg;
+    color: $colortxt;
     padding: 20px;
     font-family: "Garet";
     margin-bottom: 0;
@@ -54,44 +58,38 @@ textarea {
 }
 
 .main-contacto{
-    .main-contact,h2{text-align: center;
-    font-family: "Garet";
-    font-size:normal; 
-}
+    .main-contact,h2{
+        text-align: center;
+        font-family: "Garet";
+        font-size:normal; 
+        }
     .main-contact, p{
-    text-align: center;
-    font-family: "Garet";
-    font-size:normal;
+        text-align: center;
+        font-family: "Garet";
+        font-size:normal;
     
 }  
 }
 footer{
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 65px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
+    .fa {
+        padding: 20px;
+        font-size: 30px;
+        width: 65px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
     .fa:hover {
-    opacity: 1.0;
-   }
-  }
-  
-  
-  
-  
-  
-  .fa-whatsapp {
-    background: hsl(106, 83%, 68%);
-    color: white;
-  }
-  
-  
-  .fa-instagram {
+        opacity: 1.0;
+        }
+    }        
+    .fa-whatsapp {
+        background: hsl(106, 83%, 68%);
+        color: $colortxt;
+    }  
+    .fa-instagram {
     background: hsl(306, 95%, 74%);
-    color: white;
-  }
+    color: $colortxte;
+    }
 #iconoFooter
 {
     font-size: 60px;
@@ -103,7 +101,7 @@ footer{
         font-family: "Garet";
 
     }
-.card-container{
+    .card-container{
         width: 100%;
         max-width: 1200px;
         display: flex;
@@ -115,12 +113,12 @@ footer{
             width: 330px;
             height: 430px;
             border-radius: 8px;
-            box-shadow: 0 2px 2px rgba(255, 231, 245, 0.838);
+            box-shadow: 0 2px 2px $colortxt(255, 231, 245, 0.838);
             overflow: hidden;
             margin: 20px;
             text-align: center;
             transition: all 0.35s;
-            background-color: #111;
+            background-color: $colorBg;
             &  img {
                 height: 250px;
                 width: auto;}
@@ -130,13 +128,14 @@ footer{
                     font-size: 16px;
                     font-weight: 300;
                     text-align: justify;
-                    color: aliceblue;    
-
+                    color: $colortxt;                         
+                }           
+            }
             
-           
-
-        }
-           
 
     }
-    }
+.card-container .card:hover {
+                transform: translateY(-15px);
+                box-shadow: 0 4px 15px aliceblue;
+
+            }
