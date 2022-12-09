@@ -6,6 +6,9 @@ header .logo {
 header .navbar {
   background-color: black;
   font-family: "Garet";
+  text-align: right;
+  
+  
 }
 
 .form {
@@ -134,5 +137,61 @@ footer #iconoFooter {
   
 }
 .titulo-comentarios{
+  font-family: "Garet";
+}
+.gal-item{
+	overflow: hidden;
+	padding: 8px;
+}
+.gal-item .box{
+	height: 100%;
+	overflow: hidden;
+}
+.box img{
+	height: 100%;
+	width: auto;
+	object-fit:cover;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  background: rgb(235, 231, 231);
+}
+
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Style images to display in a four column layout */
+.gallery img {
+  width: 25%;
+  margin-top: 8px;
+  padding: 0 4px;
+  border-radius: 10px;
+  object-fit:cover;
+}
+.wrapper {
+  width: 90%;
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+h1 {
+  font-size: calc(1.5rem + .5vw);
+  font-family: "Garet";
+}
+
+p {
+  line-height: 1.7;
+  font-size: calc(.875rem + .25vw);
   font-family: "Garet";
 }
